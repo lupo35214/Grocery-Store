@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: cadetblue;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    margin : 0 auto;
+}
+
+.header img {
+    height : 8%;
+    width : 8%;
+    margin : 10px 20px;
+}
+
+.header nav {
+    border-bottom: 1px solid black;
+}
+
+.header ul {
+    list-style-type: none;
+    display : flex;
+}
+
+.header ul li {
+    font-size : 25px;
+    padding: 0 20px;
+    margin : 0 auto;
+}
+
+.vegetable-oil {
+    display: inline-block;
+    box-sizing : border-box;
+    background-image : url(images/Substituting\ Oil\ for\ Butter\ in\ Recipes.jpg);
+    position : relative;
+    height : 350px;
+    width : 500px;
+    background-size : cover;
+    border : 3px solid black;
+    border-radius : 5px;
+}
+
+.vegetable-oil button {
+    background-color: #d2f32c;
+    border: 1px solid black;
+    color: rgba(0, 0, 0, 0.86); /* White text */
+    display: inline-block; /* Inline-block element */
+    font-size: 16px; /* Font size */
+    margin-bottom : 20px;
+    margin-left : 20px;
+    text-align : center;
+    height : 30px;
+    width : 120px;
+    cursor: pointer; /* Pointer/hand icon on hover */
+    border-radius: 25px; /* Rounded corners */
+    position : relative;
+    font-weight: bold;
+}
+
+.vegetable-oil h2 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 240px;
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,2 @@
+add a category page before choosing items
+use handlebars
